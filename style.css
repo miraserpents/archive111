@@ -1,0 +1,11 @@
+html {
+    font-family: "Georgia New";
+    color:rgb(82, 58, 66);
+}
+body {
+    background-color:rgb(255, 255, 255);
+}
+p {
+    font-size: 1.5rem;
+    color:rgb(121, 86, 92)
+}
