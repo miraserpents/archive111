@@ -3,7 +3,7 @@ html {
     color:rgb(170, 38, 56);
 }
 body {
-    background-color:rgb(39, 27, 27);
+    background-color:rgb(255, 255, 255);
     margin: 0;
 }
 p {
@@ -31,4 +31,52 @@ ul {
     padding-bottom: 5%;
 
 
+}
+.navbar {
+    background-color: rgb(80, 21, 21);
+    display: flex;
+    justify-content: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 5em;
+}
+.nav-links li a { 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    transition: 0.3s;
+    padding: 0.5em 1.0em;
+    border-radius: 0.5em;
+}
+.nav-links li a:hover {
+    background-color: rgb(112, 40, 40);
+}
+.title {
+    text-align: center;
+    padding: 1em;
+
+}
+.current {
+    text-decoration: underline dotted rgb(175, 23, 23) 0.2em;
+}
+.accordion-header {
+    width: 100%;
+    background-color: rgb(34, 1, 1);
+    border: none;
+    padding: 1em 1em 1em 1em;
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.accordion-content {
+    display: none;
+}
+
+.accordion-header:hover {
+    background-color: rgb(133, 7, 32);
 }

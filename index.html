@@ -10,13 +10,19 @@
     </head>
 
     <body>
-
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="current"><a href="index.html">home</a> </li>
+                <li><a href="blog.html">blog</a> </li>
+                <li><a href="about.html">about mira</a></li>
+            </ul>
+        </nav>
         <!-- TYPE CODE BELOW -->
         <div id="header">
             <h1>welcome, <span id="username">_________</span></h1>
             <span>
                 <input type="text" id="greeter">
-                <button id="save-name">save</button>
+                <button id="save-name" onclick="saveName()">save</button>
             </span>
         </div>
         <div id="intro">
