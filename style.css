@@ -18,7 +18,7 @@ ul {
     font-size: 1.5rem;
 }
 #header {
-    background-image: url(https://img.freepik.com/premium-photo/natural-snake-skin-as-background-white-snakeskin-texture_84485-3094.jpg);
+    background-image: url(https://www.scotiabanksaddledome.com/wp-content/uploads/2025/03/Static_Social-FacebookPR_1200x630_Deftones_2025_Regional_ScotiabankSaddledome_0825.jpg);
     background-size: cover;
     height: 60%;
     color: rgb(170, 38, 56);
@@ -79,4 +79,42 @@ ul {
 
 .accordion-header:hover {
     background-color: rgb(133, 7, 32);
+}
+.hidden {
+    display:none !important;
+}
+
+.blog-entry {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding-right: 2%;
+    margin-bottom: 2em;
+}
+
+.blog-entry image {
+    width: 40%;
+    border-radius: 0 1.5em 1.5em 0;
+}
+
+#enter-password {
+    text-align: center;
+}
+
+#enter-password input {
+    font-size: 1.5rem;
+    border-radius: 0.5em;
+    padding: 0.2em;
+    width: 40%;
+}
+
+#enter-password button {
+    font-size: 1.3rem;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    width: 7%;
+    border: 0;
+    background-color: crimson;
+    color: white;
+
 }
